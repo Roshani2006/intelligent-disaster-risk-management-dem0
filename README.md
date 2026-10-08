@@ -141,6 +141,7 @@ Open `http://localhost:5173` in your browser.
 ## Running Automated Tests & Production Build
 
 ### Run Backend Tests (pytest)
+
 ```bash
 python -m pytest backend/tests
 ```

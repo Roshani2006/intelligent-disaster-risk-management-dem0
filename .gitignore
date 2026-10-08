@@ -1,0 +1,35 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.eslintcache
+
+# Python & Pytest
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Raw Data (Prevent committing large rasters/datasets)
+data/raw/*
+!data/raw/.gitkeep
+
+# Environment & Credentials
+.env
+*.env.local
+*.pem
+
+# IDEs & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
